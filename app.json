@@ -2,7 +2,7 @@
   "expo": {
     "name": "neerisalon",
     "slug": "neerisalon",
-    "version": "1.0.3",
+    "version": "1.0.2",
     "orientation": "portrait",
     "projectId": "2c5035aa-d09b-4226-8957-0aa12d5d6429",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-       "buildNumber": "3",
+       "version": "1.0.2",
+       "buildNumber": "2",
       "supportsTablet": true,
       "bundleIdentifier": "com.neerisalon.eirmonsolutions",
       "infoPlist": {
