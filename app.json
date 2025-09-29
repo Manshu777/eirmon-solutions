@@ -1,22 +1,32 @@
 {
   "expo": {
-    "name": "newadminneeri",
-    "slug": "newadminneeri",
-    "version": "1.0.0",
+    "name": "neerisalon",
+    "slug": "neerisalon",
+    "version": "1.0.3",
     "orientation": "portrait",
+    "projectId": "2c5035aa-d09b-4226-8957-0aa12d5d6429",
     "icon": "./assets/images/icon.png",
-    "scheme": "newadminneeri",
+    "scheme": "neerisalon",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+       "buildNumber": "3",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.neerisalon.eirmonsolutions",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "android": {
+      "googleServicesFile": "./google-services.json"
+    },
+      "edgeToEdgeEnabled": true,
+      "package": "com.neerisalon.eirmonsolutions"
     },
     "web": {
       "bundler": "metro",
@@ -24,6 +34,7 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      "expo-notifications",
       "expo-router",
       [
         "expo-splash-screen",
@@ -31,12 +42,18 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2c5035aa-d09b-4226-8957-0aa12d5d6429"
+      }
     }
   }
 }
